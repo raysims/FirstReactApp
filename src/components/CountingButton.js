@@ -17,7 +17,8 @@ export default class CountingButton extends Component {
 
   render() {
     return (
-      <div>Click Me!
+      <div className="App-textbox">See how many times you can click the button!
+      <br></br>
       <button className="App-button"onClick={this.handleClick}>
         {this.state.counter}
       </button>

@@ -3,17 +3,29 @@ import './App.css';
 import CountingButton from "./components/CountingButton.js";
 import Header from "./components/Header.js"
 import Footer from "./components/Footer.js"
+import LinkedInWidget from "./components/LinkedInWidget.js"
+
+
 class App extends Component {
 
+  componentDidMount () {
+      const script = document.createElement("script");
+
+      script.src = "//platform.linkedin.com/in.js";
+      script.async = true;
+
+      document.body.appendChild(script);
+  }
+
   render() {
+
     return (
-      <body>
         <div className="App">
           <Header></Header>
-          <CountingButton></CountingButton>
+          <CountingButton className="App"></CountingButton>
+          <LinkedInWidget></LinkedInWidget>
+          <Footer></Footer>
         </div>
-      <Footer></Footer>
-    </body>
     );
 
 }
