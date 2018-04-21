@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.App-button {
+  height: 10px;
+  width: 5px;
+  color: orange;
+  font-weight: bold;
+  text-align: center;
+}
+
+.App-header {
+  text-align: center;
+  color: white;
+}
+
+.App-footer {
+  height: 30px;
+  margin-bottom: 30px;
+  color: white;
+  text-align: center;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
