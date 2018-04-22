@@ -7,7 +7,6 @@ import LinkedInWidget from "./components/LinkedInWidget.js"
 import Button from 'material-ui/Button';
 import AppBar from 'material-ui/AppBar';
 import Intro from "./components/Intro.js"
-import logo from './logo.png'
 
 class App extends Component {
 
