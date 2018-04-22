@@ -8,7 +8,7 @@ export default class Shop extends Component {
     return (
       <div >
         <p title="intro" className="App-intro">If I somehow make a shop its here.<br />
-                                                Maybe this could link to delaware subaru classifieds?
+          Maybe this could link to delaware subaru classifieds?
         </p>
       </div>
     );
