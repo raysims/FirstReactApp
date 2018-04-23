@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   padding: 30px;
+  font-weight: bold;
 }
 
 .App-button {
@@ -11,8 +12,15 @@
   text-align: center;
 }
 
+.App-calendar {
+  height: 500px;
+  background-color: white;
+}
+
 .App-header {
   text-align: center;
+  font-weight: bold;
+  font-variant-caps: all-petite-caps;
   color: #B3AA00;
 }
 

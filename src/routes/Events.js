@@ -4,6 +4,7 @@ import AppBar from 'material-ui/AppBar';
 import Button from 'material-ui/Button';
 import Footer from "../components/Footer.js";
 import Header from "../components/Header";
+import EventCalendar from "../components/EventCalendar.js";
 import LinkedInWidget from "../components/LinkedInWidget.js";
 
 export default class Events extends Component {
@@ -18,8 +19,10 @@ export default class Events extends Component {
         </AppBar>
       </div>
       <div >
-        <p title="intro" className="App">Events go Here<br />
+        <p title="intro" className="App">This is currently mocked data. Data is static until I wrote the backend<br />
+        However until then I can just add events to the mocked data file.
         </p>
+        <EventCalendar></EventCalendar>
       </div>
       <div>
           <LinkedInWidget />
