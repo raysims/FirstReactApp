@@ -4,10 +4,10 @@ import './App.css';
 
 import AppBar from 'material-ui/AppBar';
 import Button from 'material-ui/Button';
-import Footer from "./Footer.js";
+import Footer from "../components/Footer.js";
 import Header from "../components/Header.js";
-import LinkedInWidget from "./LinkedInWidget.js";
-import Subaru from "./subaru.jpg";
+import LinkedInWidget from "../components/LinkedInWidget.js";
+import Subaru from "../images/subaru.jpg";
 import MeetMembers from './MeetMembers';
 
 export default class Home extends Component {
@@ -45,7 +45,7 @@ export default class Home extends Component {
           </AppBar>
         </div>
         <div className="App">
-          <img src={require('./subaru.jpg')} />
+          <img src={require('../images/subaru.jpg')} />
         </div>
         <div>
           <LinkedInWidget />

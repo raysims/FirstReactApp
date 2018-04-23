@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import Button from 'material-ui/Button';
 
 import AppBar from 'material-ui/AppBar';
-import Footer from "./Footer.js";
+import Footer from "../components/Footer.js";
 import Header from "../components/Header";
-import LinkedInWidget from "./LinkedInWidget.js";
+import LinkedInWidget from "../components/LinkedInWidget.js";
 
 export default class Shop extends Component {
 
