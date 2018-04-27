@@ -1,13 +1,8 @@
 import React, { Component } from 'react';
-import { Link, Route } from 'react-router-dom';
 
-import Button from 'material-ui/Button';
 import Footer from "./Footer.js";
 import Header from "./Header";
-import EventCalendar from "./EventCalendar.js";
 import LinkedInWidget from "./LinkedInWidget.js";
-import Subaru from "../images/subaru.jpg";
-import MeetMembers from './MeetMembers';
 
 export default class Home extends Component {
 
@@ -23,17 +18,13 @@ export default class Home extends Component {
     document.body.appendChild(script);
   }
 
-  constructor(props) {
-    super(props);
-  }
-
   render() {
 
     return (
       <body>
         <div className="wrapper">
           <Header />
-          <img src={require('../images/subaru.jpg')}/>
+          <img alt="subaru.jpg" src={require('../images/subaru.jpg')}/>
           <LinkedInWidget />
           <Footer />
         </div>
