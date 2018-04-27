@@ -9,6 +9,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  width: 100%;
 }
 
 * {
@@ -25,16 +26,16 @@ body {
   font-size: 1.6em;
   padding: 1em;
   margin: 0 auto;
-  width: 900px;
   height: auto;
   background-color: white;
   margin-top: 5em;
+  width: 90%;
 }
 
 .calendar {
-  width: 600px;
+  width: 80%;
   height: 400px;
-  text-align: center;
+  font-size: 1.6em;
   margin: 0 auto;
   background-color: white;
 }
