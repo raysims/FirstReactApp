@@ -1,6 +1,57 @@
 body {
   margin: 0;
-  padding: 20px;
-  font-size: 12px;
-  background-color: gray;
+  padding: 0;
+  font-size: 62.5%;
+  background-image: url("images/background.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  text-align: center;
+  opacity: 0.9;
+  font-size: 1.6em;
+  padding: 1em;
+  margin: 0 auto;
+  width: 900px;
+  height: auto;
+  background-color: white;
+  margin-top: 5em;
+}
+
+.calendar {
+  width: 600px;
+  height: 400px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: white;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 4em;
+  padding: .2em;
+}
+
+img {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+p {
+ font-size: 2em;
+}
+

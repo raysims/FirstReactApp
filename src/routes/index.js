@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 
-import Home from "./Home.js";
-import Events from "./Events.js";
-import MeetMembers from "./MeetMembers";
-import MemberCars from "./MemberCars";
-import Shop from './Shop.js';
+import Home from "../components/Home.js";
+import Events from "../components/Events.js";
+import MeetMembers from "../components/MeetMembers";
+import MemberCars from "../components/MemberCars";
+import Shop from '../components/Shop.js';
 
 export default () => (
   <BrowserRouter>

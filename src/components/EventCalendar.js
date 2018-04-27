@@ -17,7 +17,7 @@ export default class EventCalendar extends Component {
     }
     render() {
         return (
-            <div className="App-calendar">
+            <div className="calendar">
                 <BigCalendar
                     events={events}
                     views={allViews}
