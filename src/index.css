@@ -30,6 +30,8 @@ body {
   background-color: white;
   margin-top: 5em;
   width: 90%;
+  height: 700px;
+  margin-bottom: 5em;
 }
 
 .calendar {
